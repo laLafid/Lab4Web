@@ -88,8 +88,3 @@ Tambahkan artikel pada main content
 **Screenshot:**
 ![](gambar/12.png)![alt text](gambar/12.2.png)
 ---
-
-
-## Referensi
-- Modul Praktikum Pemrograman Web - Universitas Pelita Bangsa
-=======
