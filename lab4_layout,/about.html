@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* About Section */
+        .about-section {
+            background-color: #ffffff;
+            padding: 40px;
+            margin-bottom: 30px;
+            border-left: 4px solid var(--color-primary);
+        }
+
+        .about-section h2 {
+            color: var(--color-dark-text);
+            font-size: 32px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .about-section p {
+            color: var(--color-light-text);
+            line-height: 28px;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .about-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .about-section ul li {
+            color: var(--color-light-text);
+            line-height: 28px;
+            font-size: 16px;
+            margin-bottom: 12px;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .about-section ul li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--color-primary);
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Layout Sederhana</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="about.html" class="active">About</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+    <section id="hero">
+        <h1>About</h1>
+        <p>selamat datang di halaman About!</p>
+    </section>
+    <section id="wrapper">
+        <section id="main">
+            <div class="about-section">
+                <h2>🎯 Visi & Misi</h2>
+                <p><strong>Visi:</strong> Menjadi Program Studi Teknik Informatika yang unggul dan terkemuka dalam
+                    menghasilkan lulusan yang kompeten, inovatif, dan berintegritas di tingkat nasional pada tahun 2030.
+                </p>
+                <p><strong>Misi:</strong></p>
+                <ul>
+                    <li>Menyelenggarakan pendidikan yang berkualitas dengan kurikulum berbasis industri dan teknologi
+                        terkini</li>
+                    <li>Menghasilkan lulusan yang kompeten, kreatif, dan siap bersaing di era digital</li>
+                    <li>Mengembangkan penelitian dan pengabdian masyarakat di bidang teknologi informasi</li>
+                    <li>Membangun kerjasama dengan industri dan institusi dalam dan luar negeri</li>
+                </ul>
+            </div>
+            <div class="about-section">
+                <h2>🚀 Program Unggulan</h2>
+                <p>Program Studi Teknik Informatika UPB menawarkan berbagai program unggulan yang dirancang untuk
+                    membekali mahasiswa dengan skill dan pengetahuan yang dibutuhkan industri:</p>
+                <ul>
+                    <li><strong>Software Engineering:</strong> Belajar membangun aplikasi web dan desktop dengan
+                        metodologi pengembangan software modern seperti Agile dan DevOps</li>
+                    <li><strong>Mobile Development:</strong> Kuasai pembuatan aplikasi Android dan iOS native maupun
+                        cross-platform menggunakan Flutter dan React Native</li>
+                    <li><strong>Artificial Intelligence & Machine Learning:</strong> Pelajari AI, Deep Learning, dan
+                        implementasi untuk berbagai solusi bisnis dan industri</li>
+                    <li><strong>Cyber Security:</strong> Pahami teknik-teknik keamanan sistem, ethical hacking, dan cara
+                        melindungi infrastruktur digital</li>
+                    <li><strong>Cloud Computing:</strong> Eksplorasi teknologi cloud dengan AWS, Google Cloud, dan Azure
+                        untuk membangun aplikasi scalable</li>
+                    <li><strong>Data Science & Analytics:</strong> Analisis big data dan visualisasi data menggunakan
+                        tools modern untuk menghasilkan business insights</li>
+                </ul>
+            </div>
+            <div class="about-section">
+                <h2>🏢 Fasilitas Modern</h2>
+                <p>Kami menyediakan berbagai fasilitas terbaik untuk mendukung proses pembelajaran mahasiswa:</p>
+
+                <ul>
+                    <li><strong>Lab Komputer Modern:</strong> Dilengkapi dengan komputer spesifikasi tinggi dan software
+                        development terbaru untuk praktikum</li>
+                    <li><strong>Perpustakaan Digital:</strong> Akses ke ribuan e-book, jurnal internasional, dan materi
+                        pembelajaran online</li>
+                    <li><strong>Ruang Kerja Kolaboratif:</strong> Space khusus untuk mahasiswa mengerjakan project tim
+                        dan startup development</li>
+                    <li><strong>Studio Multimedia:</strong> Fasilitas untuk pengembangan konten digital, video editing,
+                        dan desain grafis</li>
+                    <li><strong>Internet Berkecepatan Tinggi:</strong> Akses WiFi cepat di seluruh area kampus untuk
+                        mendukung pembelajaran online</li>
+                </ul>
+            </div>
+            <aside id="sidebar">
+                <div class="widget-box">
+                    <h3 class="title">Skill yang Dipelajari</h3>
+                    <ul>
+                        <li><a href="#">💻 Programming (Java, Python, C++)</a></li>
+                        <li><a href="#">🌐 Web Development (HTML, CSS, JS)</a></li>
+                        <li><a href="#">📱 Mobile Apps Development</a></li>
+                        <li><a href="#">🗄️ Database Management</a></li>
+                        <li><a href="#">🤖 AI & Machine Learning</a></li>
+                    </ul>
+                </div>
+                <div class="widget-box">
+                    <h3 class="title">Kenapa Pilih TI UPB?</h3>
+                    <p>Dosen berpengalaman, kurikulum industri, lab modern, dan peluang magang
+                        di perusahaan teknologi ternama. Lulusan kami siap kerja dan banyak yang
+                        sudah berkarir di startup maupun perusahaan besar!</p>
+                </div>
+                <div class="widget-box">
+                    <h3 class="title">Peluang Karir</h3>
+                    <p>Lulusan TI UPB memiliki prospek karir cemerlang sebagai Software Developer,
+                        Data Scientist, System Analyst, Network Engineer, dan masih banyak lagi di
+                        berbagai perusahaan teknologi terkemuka.</p>
+                </div>
+            </aside>
+        </section>
+    </section>
+    <footer>
+        <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+    </footer>
+    <div id="container">
+    </div>
+
+</body>
+
+</html>
