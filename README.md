@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Membuat CSS Layout
 
 ### 1. Persiapan Membuat Dokumen HTML
@@ -94,5 +93,3 @@ Tambahkan artikel pada main content
 ## Referensi
 - Modul Praktikum Pemrograman Web - Universitas Pelita Bangsa
 =======
-dada
->>>>>>> a0524cbc7cf2a6d35eb6f17c3d182237bd78fe71
